@@ -6,6 +6,7 @@ def directors_totals(nds)
   result = {}
   
   while directors_index < nds.size do 
-    director_name = 
+    director_name = nds[directors_index][:name]
+    
   nil
 end
