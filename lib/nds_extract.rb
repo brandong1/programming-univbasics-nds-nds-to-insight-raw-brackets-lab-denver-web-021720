@@ -7,6 +7,7 @@ def directors_totals(nds)
   
   while directors_index < nds.size do 
     director_name = nds[directors_index][:name]
-    results[director_name]
+    results[director_name] = 0 
+    movie_index = 0 
   nil
 end
